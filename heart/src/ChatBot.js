@@ -3,7 +3,7 @@ import { GrTrash, GrChat } from "react-icons/gr";
 import { FaTimes } from "react-icons/fa"; // cross icon
 import "./App.css";
 
-const OPENAI_API_KEY = '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';
+const OPENAI_API_KEY = '';
 const MAX_RETRIES = 3;
 const DEFAULT_RETRY_DELAY = 5;
 
