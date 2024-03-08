@@ -590,6 +590,41 @@ input:focus {
 }
 
 
+/* Chart Container Styles */
+.chart-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 50px;
+  max-height: 1000px; /* Adjust the max height as needed */
+}
+
+.chart-form {
+  width: 350px;
+  margin: 20px;
+  padding: 20px;
+  border: 2px solid var(--main-blue);
+  border-radius: 10px;
+  background: linear-gradient(to bottom right, var(--light-gray-1), var(--medium-gray));
+  backdrop-filter: blur(var(--glass-blur));
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  color: var(--semi-black);
+  overflow: hidden; 
+}
+
+.chart-form canvas {
+  max-height: 300px; /* Adjust the max height of the canvas */
+}
+
+.chart-title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--semi-black);
+}
+
+
 @keyframes fade-in {
   from {
     opacity: 0;
