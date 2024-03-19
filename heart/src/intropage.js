@@ -109,8 +109,6 @@ const IntroPage = () => {
                 },
               },
             }}
-            height={300}
-            width={400}
           />
         </div>
 
@@ -129,8 +127,6 @@ const IntroPage = () => {
               ],
             }}
             options={{ maintainAspectRatio: false }}
-            height={300}
-            width={400}
           />
         </div>
 
@@ -167,8 +163,6 @@ const IntroPage = () => {
                 },
               },
             }}
-            height={300}
-            width={400}
           />
         </div>
 
@@ -208,8 +202,6 @@ const IntroPage = () => {
                 },
               },
             }}
-            height={300}
-            width={400}
           />
         </div>
 
@@ -259,8 +251,6 @@ const IntroPage = () => {
                 },
               },
             }}
-            height={400}
-            width={800}
           />
         </div>
 
@@ -280,8 +270,6 @@ const IntroPage = () => {
               ],
             }}
             options={{ maintainAspectRatio: false }}
-            height={300}
-            width={400}
           />
         </div>
       </div>
@@ -290,3 +278,71 @@ const IntroPage = () => {
 };
 
 export default IntroPage;
+
+
+{/* <div class="loading">
+  <svg height="48px" width="64px">
+    <polyline id="back" points="0.157 23.954, 14 23.954, 21.843 48, 43 0, 50 24, 64 24"></polyline>
+    <polyline id="front" points="0.157 23.954, 14 23.954, 21.843 48, 43 0, 50 24, 64 24"></polyline>
+  </svg>
+</div>
+
+<div id="intro-welcome-text">
+  <h1>Welcome to the Heart Disease Prediction System</h1>
+</div>
+
+<style>
+.loading svg polyline {
+  fill: none;
+  stroke-width: 3;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.loading svg polyline#back {
+  fill: none;
+}
+
+.loading svg polyline#front {
+  fill: none;
+  stroke: #FF0000;
+  stroke-dasharray: 48, 144;
+  stroke-dashoffset: 192;
+  animation: dash_682 1.4s linear infinite;
+}
+
+@keyframes dash_682 {
+  72.5% {
+    opacity: 0;
+  }
+
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+#intro-welcome-text {
+  position: relative;
+  overflow: hidden;
+}
+
+#intro-welcome-text::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  animation: reveal 2s linear forwards;
+}
+
+@keyframes reveal {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}
+</style> */}
